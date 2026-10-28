@@ -1,12 +1,14 @@
-/*  your css code here. If applicable */
+
+table, th, tr, td {
+    border: 1px solid black;
+}
 
 table {
     background-color: yellow;
-    border: 1px solid black;
     border-collapse: collapse;
 }
-th,td,tr{
-    border: 1px solid black;
+
+th, td {
     padding: 10px;
 }
 
